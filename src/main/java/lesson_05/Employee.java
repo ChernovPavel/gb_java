@@ -17,10 +17,6 @@ public class Employee {
         this.age = age;
     }
 
-    public Employee(String name) {
-        this(name, "dfsfs", "dsfsd", "235632532", 1242, 22);
-    }
-
     public void printInfo() {
         System.out.println(this);
     }
